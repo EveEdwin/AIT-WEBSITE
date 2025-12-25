@@ -1,0 +1,55 @@
+.testimonial-nav {
+  display: flex;
+  padding: 12.14px;
+  align-items: center;
+  gap: 8.672px;
+  border-radius: 59.835px;
+  background: var(--Blue-200, #B5D9FD);
+}
+
+/* Arrows */
+.nav-arrow {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-arrow.light {
+  background: var(--Blue-200, #B5D9FD);
+}
+
+.nav-arrow.dark {
+  background: var(--Blue-800, #0B5DB2);
+}
+
+.nav-arrow img {
+  width: 26px;
+  height: 26px;
+}
+
+/* Dashes wrapper */
+.nav-dashes {
+  display: flex;
+  gap: 8.672px;
+  flex: 1;
+}
+
+/* Dash */
+.dash {
+  height: 4.336px;
+  flex: 1;
+  border-radius: 52.03px;
+}
+
+.dash.dark {
+  background: var(--Blue-800, #0B5DB2);
+}
+
+.dash.light {
+  background: var(--Blue-200, #B5D9FD);
+}

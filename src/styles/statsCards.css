@@ -1,0 +1,42 @@
+.stats-outer {
+  display: flex;
+  padding: 5px 24px 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.stats-card {
+  display: flex;
+  width: 300px;
+  padding: 24px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background: #fff;
+  border-radius: 12px;
+border: 1px solid var(--Gray-200, #DBDBDB);
+  border-radius: 12px; /* optional – remove if not in Figma */
+}
+
+.stats-value {
+  color: var(--Gray-900, #212121);
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -1px;
+  font-feature-settings: "liga" off, "clig" off;
+}
+
+.stats-label {
+  color: var(--Gray-700, #646464);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  font-feature-settings: "liga" off, "clig" off;
+  text-align: center;
+}

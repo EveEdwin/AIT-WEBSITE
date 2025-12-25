@@ -1,0 +1,45 @@
+:root {
+  --Yellow-400: #F9A825;
+}
+
+.info-bar {
+  width: 100%;
+  height: 45px;
+  background: var(--Yellow-400);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* Track */
+.info-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+  
+}
+
+/* Text */
+.info-track span {
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  padding-right: 30px;
+}
+
+/* MAGIC */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Optional: pause on hover */
+.info-bar:hover .info-track {
+  animation-play-state: paused;
+}

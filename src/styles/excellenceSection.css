@@ -1,0 +1,81 @@
+.excellence-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+/* LEFT TEXT */
+.excellence-title {
+  color: var(--Black, #0F0F0F);
+  font-family: "Open Sans", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 108%; /* 75.6px */
+}
+
+/* RIGHT SECTION */
+.rankings {
+  display: flex;
+  width: 594px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.rankings-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+/* Numbers */
+.rankings-numbers {
+  display: flex;
+  gap: 48px;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* Logos */
+.rankings-logos {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.rankings-logos img {
+  height: 32px;
+  object-fit: contain;
+}
+
+.rankings-outer {
+  display: flex;
+  width: 569px;
+  height: 115px;
+  align-items: center;
+  gap: 40px;
+}
+
+.rankings-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.ranking-number {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000;
+}
+
+.rankings-inner img {
+  height: 32px;
+  object-fit: contain;
+}

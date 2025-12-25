@@ -1,0 +1,127 @@
+:root {
+  --white: #ffffff;
+  --gray-200: #e5e7eb;
+  --gray-600: #4b5563;
+  --blue: #1d4ed8;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  /* max-width: 1512px; */
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  /* border: 1px solid var(--gray-200); */
+  margin: 0 auto;
+}
+
+/* LEFT */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  /* width: 329px; */
+  gap: 12px;
+}
+.navbar-title {
+  width: 329px;
+  color: var(--Brand-500, #0D2691);
+  font-family: "Open Sans", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  width: 329px;
+  font-weight: 600;
+  line-height: 35.834px; /* 105.396% */
+  font-feature-settings: "liga" off, "clig" off;
+}
+.navbar-subtitle {
+  color: var(--Brand-500, #0D2691);
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px; /* 141.176% */
+  font-feature-settings: "liga" off, "clig" off;
+}
+
+.logo {
+  width: 113.39px;
+align-self: stretch;
+aspect-ratio: 113.39/97.00;
+}
+
+
+
+
+
+/* MENU */
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+align-items: center;
+gap: 16px;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.navbar-menu a,
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  gap: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+  border-right: 1px solid var(--gray-200);
+  cursor: pointer;
+  font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+}
+
+.navbar-menu a:last-child {
+  border-right: none;
+}
+
+.navbar-menu a:hover {
+  background: #f9fafb;
+}
+
+/* ACTIVE (Academics) */
+
+
+/* HAMBURGER */
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+width: 44px;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .navbar-menu {
+    display: none;
+  }
+}
